@@ -3,7 +3,7 @@ title: "Hello, World! 👋"
 date: "2019-08-28"
 ---
 
-I'm Josh, a software engineer by day and scientist by night. I'm constantly
+I'm Josh, a software engineer by day and a scientist by night. I'm constantly
 pursuing various ways to leave a [positive impact][goals] on the world.
 
 Feel free to drop me a line at [developer.wolfe@gmail.com][email] or ping me
