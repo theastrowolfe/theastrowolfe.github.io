@@ -1,7 +1,8 @@
 ---
-title: "How I Made This Blog"
-date: "2019-08-28"
-tags: [web, go]
+Title: "How I Made This Blog"
+Date: "2019-08-28"
+#LastMod: "2019-08-29"
+Tags: [web, go]
 ---
 
 {{% warning %}}
