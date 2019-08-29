@@ -31,9 +31,9 @@ solution is made.
 {{% /expandable %}}
 
 {{% expandable label="Others > Myself" level="1" %}}
-I'm feel most empowered and purpose driven when I'm serving or volunteering.
-I believe making the world a better place starts with doing the right thing
-and helping others.
+I feel most empowered and purpose driven when I'm serving others or
+volunteering. I believe making the world a better place starts with doing the
+right thing and helping others.
 {{% /expandable %}}
 
 {{% expandable label="Do The Hard Things" level="1" %}}
