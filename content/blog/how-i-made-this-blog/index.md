@@ -1,7 +1,7 @@
 ---
 title: "How I Made This Blog"
 date: "2019-08-28"
-tags: [Web, go]
+tags: [web, go]
 ---
 
 {{% warning %}}
