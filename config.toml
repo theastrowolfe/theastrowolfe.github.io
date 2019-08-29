@@ -21,7 +21,7 @@ enableGitInfo = false
   homeMetaContent = "Joshua Wolfe"
   footer = "Made with [Hugo](https://gohugo.io/)"
   # For more date formats see https://gohugo.io/functions/format/
-  dateFormat = "Jan 1, 2006"
+  dateFormat = "Jan 2, 2006"
   codePenUser = "theastrowolfe"
   katex = true
 
