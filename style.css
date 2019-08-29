@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'Fira Code';
+  font-style:  normal;
+  font-weight: 400;
+  src: url("../fonts/FiraCode-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  font-style:  normal;
+  font-weight: 800;
+  src: url("../fonts/FiraCode-Bold.woff") format("woff");
+}
+
+body {
+  font-family: 'Fira Code', Monaco, Consolas, Ubuntu Mono, monospace;
+}
+
+.library-desc {
+  text-align: center;
+}
+
+.main-and-footer > div {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#main {
+  flex-grow: 1;
+  min-height: auto;
+}
+
+@media screen and (max-width: 45em) {
+  .main-and-footer > div {
+    min-height: auto;
+  }
+}
+
+@media screen and (min-width: 45em) {
+  .intro-and-nav {
+    width: 12rem;
+  }
+
+  .intro-and-nav > div {
+    padding: 1rem;
+  }
+
+  .main-and-footer {
+    margin-left: 12rem;
+  }
+}
+
+code[class*="language-"],
+pre[class*="language-"] {
+  font-family: 'Fira Code', Monaco, Consolas, Ubuntu Mono, monospace;
+  font-feature-settings: normal;
+  font-size: .85rem;
+  line-height: 1.4;
+}
+
+pre[class*="language-"] {
+  padding: 0.75em;
+}
+
