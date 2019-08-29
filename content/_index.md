@@ -15,7 +15,7 @@ on twitter at [@theastrowolfe][twitter]!
 Doing non-traditional, "radical" things tends to yield "radical" results.
 {{% /expandable %}}
 
-{{% expandable label="Feed Curiosity" level="1" %}}
+{{% expandable label="Feed My Curiosity" level="1" %}}
 It's important to explore new interest and unknown subjects without the fear
 of judgement or failure.
 <br>
