@@ -59,7 +59,13 @@ and perseverence that energizes and drives building the future.
   ],
   "Accomplishments": [
     "Hiked (the width of) the Appalachian Trail"
-  ]
+  ],
+  "Social Media": {
+    "LinkedIn": "https://linkedin.com/in/jbwolfe",
+    "Twitter": "https://twitter.com/theastrowolfe",
+    "Instagram": "https://instagram.com/theastrowolfe/",
+    "Facebook": "https://facebook.com/theastrowolfe",
+  }
 }
 ```
 
