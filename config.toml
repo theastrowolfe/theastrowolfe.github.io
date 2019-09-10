@@ -31,18 +31,22 @@ enableGitInfo = false
     url = "/"
     weight = 1
   [[menu.nav]]
+    name = "Resume"
+    url = "https://drive.google.com/open?id=1UddiEeuo3D93e3IekUGNwqcJFRIQd7Di"
+    weight = 2
+  [[menu.nav]]
     name = "Blog"
     url = "/blog/"
-    weight = 2
+    weight = 3
   [[menu.nav]]
     name = "Tags"
     url = "/tags/"
-    weight = 3
+    weight = 4
 #  [[menu.nav]]
 #    name = "Showcase"
 #    url = "/showcase/"
-#    weight = 3
+#    weight = 5
 #  [[menu.nav]]
 #    name = "Tutorials"
 #    url = "/tutorials/"
-#    weight = 4
+#    weight = 6
