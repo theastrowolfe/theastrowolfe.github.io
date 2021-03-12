@@ -1,0 +1,60 @@
+baseURL = "https://theastrowolfe.github.io/"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+title = "The Astro Wolfe"
+disqusShortname = ""
+#enableGitInfo = true
+pygmentsUseClasses = true
+pygmentsCodefences = true
+
+[taxonomies]
+    tag = "tags"
+
+[permalinks]
+    blog = "/:section/:filename/"
+    gist = "/:section/:filename/"
+
+[params]
+  description = "[@theastrowolfe](https://twitter.com/theastrowolfe)"
+  homeMetaContent = "Joshua Wolfe"
+  footer = "Made with [Hugo](https://gohugo.io/)"
+  dateFormat = "Jan 2, 2006"
+  codePenUser = "theastrowolfe"
+  katex = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "monokailight"
+
+[menu]
+  [[menu.nav]]
+    name = "About"
+    url = "/"
+    weight = 1
+  [[menu.nav]]
+    name = "Resume"
+    url = "https://drive.google.com/open?id=1UddiEeuo3D93e3IekUGNwqcJFRIQd7Di"
+    weight = 2
+  [[menu.nav]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 3
+  [[menu.nav]]
+    name = "Gist"
+    url = "/gist/"
+    weight = 4
+#  [[menu.nav]]
+#    name = "Projects"
+#    url = "/projects/"
+#    weight = 5
+#  [[menu.nav]]
+#    name = "Tutorials"
+#    url = "/tutorials/"
+#    weight = 6
+  [[menu.nav]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 7

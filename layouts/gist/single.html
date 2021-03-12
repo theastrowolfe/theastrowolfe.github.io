@@ -1,0 +1,45 @@
+{{ define "main" }}
+<h1 class="filename">
+    {{ .Title }}
+    <a class="gist-link" href="{{ .Title }}" target="_blank">
+        <svg class="download" aria-hidden="true" viewBox="0 0 24 24" focusable="false">
+            <use xlink:href="#download"></use>
+        </svg>
+    </a>
+</h1>
+<div class="date">
+    {{ $dateFormat := $.Site.Params.lastMod | default "Jan 2, 2006" }}
+    {{ $publishDate := .PublishDate }}
+    <strong aria-hidden="true">Last Modified: </strong>{{ $publishDate.Format $dateFormat }}
+</div>
+
+{{ with .Params.tags }}
+<div class="tags">
+<strong aria-hidden="true">Tags: </strong>
+<ul aria-label="tags">
+    {{ range . }}
+    <li>
+        <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+        <use xlink:href="#tag"></use>
+        </svg>
+        {{ $href := print ("tags/" | absLangURL) (. | urlize) "/" }}
+        <a href="{{ $href }}">{{ . }}</a>
+    </li>
+    {{ end }}
+</ul>
+</div>
+{{ end }}
+
+{{ partial "gist-description" . }}
+
+<div class="gist-code line-numbers">
+{{ .Content }}
+</div>
+
+{{ partial "gist-usage" . }}
+
+{{ partial "gist-test" . }}
+
+{{ partial "gist-output" . }}
+
+{{ end }}

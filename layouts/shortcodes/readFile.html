@@ -1,0 +1,3 @@
+{{ $file := .Get "file" }}
+{{ $path := printf "%s" $file | printf "%s%s" .Page.Dir | printf }}
+{{ readFile $path }}

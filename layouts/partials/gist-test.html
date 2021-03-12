@@ -1,0 +1,15 @@
+{{ if .Params.test }}
+{{ $content := replaceRE "^\\s*" "$1" .Params.test }}
+{{ if ge (len $content) 1 }}
+<div class="gist-usage gist-code">
+    <span style="font-size: 1.25rem;">Test</span>
+    <div class="highlight">
+        <pre class="chroma language-bash" role="region" aria-label="code sample">
+            <code class="language-">
+                {{ $content | markdownify }}
+            </code>
+        </pre>
+    </div>
+</div>
+{{ end }}
+{{ end }}
