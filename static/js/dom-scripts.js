@@ -95,6 +95,7 @@
   });
 }());
 
+/* Reformat blog posts */
 (function () {
   function isParentElementMainElement(element) {
     return element.parentElement === document.getElementById('main');
