@@ -95,6 +95,7 @@
   });
 }());
 
+/* Reformat blog posts */
 (function () {
   function isParentElementMainElement(element) {
     return element.parentElement === document.getElementById('main');
@@ -106,4 +107,11 @@
 
   let paragraphs = [...document.getElementsByTagName('p')];
   paragraphs.filter(isParentElementMainElement).slice(1).map(restyleParagraph);
+}());
+
+/* Add target to external links */
+(function () {
+  isExternalLink = aTag => !aTag.href.includes(window.location.origin);
+  addBlankTarget = aTag => aTag.target = "_blank";
+  [...document.getElementsByTagName('a')].filter(isExternalLink).map(addBlankTarget);
 }());
