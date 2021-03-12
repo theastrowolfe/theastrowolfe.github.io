@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on The Astro Wolfe</title>
-    <link>https://theastrowolfe.github.io/blog/</link>
+    <link>https://theastrowolfe.com/blog/</link>
     <description>Recent content in Blog on The Astro Wolfe</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://theastrowolfe.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://theastrowolfe.com/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How I Made This Blog</title>
-      <link>https://theastrowolfe.github.io/blog/how-i-made-this-blog/</link>
+      <link>https://theastrowolfe.com/blog/how-i-made-this-blog/</link>
       <pubDate>Wed, 28 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://theastrowolfe.github.io/blog/how-i-made-this-blog/</guid>
+      <guid>https://theastrowolfe.com/blog/how-i-made-this-blog/</guid>
       <description>Warning: You are about to read a blog post on how this blog was made - It&#39;s getting meta.    Hugo: The world&amp;rsquo;s fastest framework for building websites. Credits   This blog is made with Hugo. &amp;ldquo;The world’s fastest framework for building websites.&amp;quot;1 Basically, it is a static site generator built in go. This means when it is time to build a website, it&amp;rsquo;s very fast.</description>
     </item>
     
