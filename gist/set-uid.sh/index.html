@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <meta name="generator" content="Hugo 0.82.0-DEV" />
-    <link rel="canonical" href="https://theastrowolfe.github.io/tags/">
+    <link rel="canonical" href="https://theastrowolfe.github.io/gist/set-uid.sh/">
 
     
 
@@ -24,7 +24,7 @@
 
     
     
-    <title>Tags | The Astro Wolfe</title>
+    <title>set-uid.sh | The Astro Wolfe</title>
 </head>
 <body>
   <svg style="display: none">
@@ -206,7 +206,7 @@
       
       
       
-      <a href="/tags/" aria-current="page">
+      <a href="/tags/" >
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
@@ -221,48 +221,80 @@
     <div class="main-and-footer">
     <div>
     
-  <main id="main">
-    <h1>Tags</h1>
-    <ul class="patterns-list">
+<h1 class="filename">
+    set-uid.sh
+    <a class="gist-link" href="set-uid.sh" target="_blank">
+        <svg class="download" aria-hidden="true" viewBox="0 0 24 24" focusable="false">
+            <use xlink:href="#download"></use>
+        </svg>
+    </a>
+</h1>
+<div class="date">
     
-      <li>
-        <h2>
-          <a href="https://theastrowolfe.github.io/tags/web/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            web
-            
-          </a>
-        </h2>
-      </li>
     
-      <li>
-        <h2>
-          <a href="https://theastrowolfe.github.io/tags/cybersecurity/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            cybersecurity
-            
-          </a>
-        </h2>
-      </li>
+    <strong aria-hidden="true">Last Modified: </strong>Mar 9, 2021
+</div>
+
+
+<div class="tags">
+<strong aria-hidden="true">Tags: </strong>
+<ul aria-label="tags">
     
-      <li>
-        <h2>
-          <a href="https://theastrowolfe.github.io/tags/bash/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            bash
-            
-          </a>
-        </h2>
-      </li>
+    <li>
+        <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+        <use xlink:href="#tag"></use>
+        </svg>
+        
+        <a href="https://theastrowolfe.github.io/tags/bash/">bash</a>
+    </li>
     
-    </ul>
-  </main>
+    <li>
+        <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+        <use xlink:href="#tag"></use>
+        </svg>
+        
+        <a href="https://theastrowolfe.github.io/tags/cybersecurity/">cybersecurity</a>
+    </li>
+    
+</ul>
+</div>
+
+
+
+
+
+
+
+<div class="gist-code line-numbers">
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">
+
+#!/bin/bash
+
+chmod 4755 $1
+chown root:root $1
+</code></pre></div>
+</div>
+
+
+
+
+<div class="gist-usage gist-code">
+    <span style="font-size: 1.25rem;">Usage</span>
+    <div class="highlight">
+        <pre class="chroma language-bash" role="region" aria-label="code sample">
+            <code class="language-">
+                ./set-uid.sh myzsh
+            </code>
+        </pre>
+    </div>
+</div>
+
+
+
+
+
+
+
 
     <footer role="contentinfo">
   

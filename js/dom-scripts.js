@@ -94,3 +94,16 @@
     }
   });
 }());
+
+(function () {
+  function isParentElementMainElement(element) {
+    return element.parentElement === document.getElementById('main');
+  }
+  function restyleParagraph(element) {
+    element.style.textIndent = '3em';
+    element.style.marginTop = '0.75em';
+  }
+
+  let paragraphs = [...document.getElementsByTagName('p')];
+  paragraphs.filter(isParentElementMainElement).slice(1).map(restyleParagraph);
+}());

@@ -1,0 +1,108 @@
+/* @font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: normal;
+  src: url("fonts/UbuntuMono-Regular.ttf")  format('truetype');
+} */
+@font-face {
+  font-family: 'Fira Code';
+  font-style:  normal;
+  font-weight: 400;
+  src: url("fonts/FiraCode-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  font-style:  normal;
+  font-weight: 800;
+  src: url("fonts/FiraCode-Bold.ttf") format("truetype");
+}
+
+html {
+  font-size: 1.1em;
+}
+
+body, h1, h2, h3, h4 {
+  font-family: 'Fira Code', Monaco, Consolas, monospace;
+}
+
+.library-desc {
+  text-align: center;
+}
+
+.main-and-footer > div {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 42rem;
+}
+
+#main {
+  flex-grow: 1;
+  min-height: auto;
+}
+
+.intro-and-nav {
+  font-size: 1em;
+}
+
+.bluf {
+  font-weight: 100;
+  font-size: 0.80em;
+}
+
+.filename {
+  display: flex;
+  align-items: center;
+}
+.filename > a {
+  display: inherit;
+  margin: 0 0.5em;
+  border: 0;
+}
+
+@media screen and (max-width: 45em) {
+  .main-and-footer > div {
+    min-height: auto;
+    padding: 1.4rem;
+  }
+  .intro-and-nav > div {
+    padding: 1.4rem;
+  }
+  #patterns-list {
+    margin-top: 0px;
+  }
+}
+
+@media screen and (min-width: 45em) {
+  .intro-and-nav {
+    width: 12rem;
+  }
+
+  .intro-and-nav > div {
+    padding: 1rem;
+  }
+
+  .main-and-footer {
+    margin-left: 12rem;
+  }
+}
+
+div[class*="highlight"],
+pre[class*="language-"] {
+  /* margin:  1em 0 0 0; */
+  padding: 0;
+}
+code[class*="language-"],
+pre[class*="language-"] {
+  font-family: 'Fira Code', Monaco, Consolas, monospace;
+  font-feature-settings: normal;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+pre[class*="language-"] {
+  padding: 1em;
+}
+
+.gist-code * {
+  margin: 0 !important;
+}
