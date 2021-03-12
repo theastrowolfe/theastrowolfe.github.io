@@ -113,5 +113,8 @@
 (function () {
   isExternalLink = aTag => !aTag.href.includes(window.location.origin);
   addBlankTarget = aTag => aTag.target = "_blank";
-  [...document.getElementsByTagName('a')].filter(isExternalLink).map(addBlankTarget);
+  setTimeout(
+    () => [...document.getElementsByTagName('a')].filter(isExternalLink).map(addBlankTarget),
+    1000
+  );
 }());
