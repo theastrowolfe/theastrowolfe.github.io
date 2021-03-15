@@ -2,6 +2,7 @@
 Title: "How I Made This Blog"
 Date: "2019-08-28"
 Tags: [web]
+draft: false
 ---
 
 {{< warning >}}
