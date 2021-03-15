@@ -5,7 +5,7 @@ description: "
 "
 usage: "./set-uid.sh myzsh"
 date: 2021-03-09T01:19:23-06:00
-tags: [bash, cybersecurity]
+tags: [bash, cybersecurity, unix]
 draft: false
 ---
 
