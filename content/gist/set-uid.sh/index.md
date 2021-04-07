@@ -21,5 +21,3 @@ draft: false
 ```bash
 {{< readFile file="set-uid.sh" >}}
 ```
-
-
