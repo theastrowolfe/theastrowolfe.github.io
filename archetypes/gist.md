@@ -4,7 +4,8 @@ bluf: ""
 description: ""
 usage: ""
 test: ""
-output: ""
+output: "\n
+"
 lastmod: {{ .Date }}
 tags: []
 draft: true
