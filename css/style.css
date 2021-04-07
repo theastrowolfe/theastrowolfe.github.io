@@ -25,6 +25,14 @@ body, h1, h2, h3, h4 {
   font-family: 'Fira Code', Monaco, Consolas, monospace;
 }
 
+nav {
+  overflow: visible;
+}
+
+.logo > img {
+  border-radius: 50%;
+}
+
 .library-desc {
   text-align: center;
 }
@@ -97,12 +105,29 @@ pre[class*="language-"] {
   font-family: 'Fira Code', Monaco, Consolas, monospace;
   font-feature-settings: normal;
   font-size: 0.9rem;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
   line-height: 1.4;
+  tab-size: 4;
+  hyphens: none;
 }
 pre[class*="language-"] {
   padding: 1em;
+  margin: .5em 0;
+  overflow: auto;
 }
-
 .gist-code * {
   margin: 0 !important;
+}
+.command-line-prompt {
+  display: block;
+  float: left;
+  font-size: 100%;
+  letter-spacing: -1px;
+  margin-right: 1em !important;
+  pointer-events: none;
+  user-select: none;
 }

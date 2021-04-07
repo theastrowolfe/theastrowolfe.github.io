@@ -1,4 +1,4 @@
 #!/bin/bash
 
+chown root $1
 chmod 4755 $1
-chown root:root $1

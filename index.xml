@@ -13,7 +13,7 @@
       <pubDate>Tue, 09 Mar 2021 01:19:23 -0600</pubDate>
       
       <guid>https://theastrowolfe.com/gist/set-uid.sh/</guid>
-      <description>#!/bin/bash chmod 4755 $1 chown root:root $1 </description>
+      <description>#!/bin/bash chown root $1 chmod 4755 $1 </description>
     </item>
     
     <item>

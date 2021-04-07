@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <meta name="generator" content="Hugo 0.82.0-DEV" />
+    <meta name="generator" content="Hugo 0.83.0-DEV" />
     <link rel="canonical" href="https://theastrowolfe.com/gist/set-uid.sh/">
 
     
@@ -256,12 +256,24 @@
         <a href="https://theastrowolfe.com/tags/cybersecurity/">cybersecurity</a>
     </li>
     
+    <li>
+        <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+        <use xlink:href="#tag"></use>
+        </svg>
+        
+        <a href="https://theastrowolfe.com/tags/unix/">unix</a>
+    </li>
+    
 </ul>
 </div>
 
 
 
 
+
+<div class="gist-description">
+A Set-UID program is like any other Unix program, except that it has a special marking, which is a single bit called a Set-UID bit. This tells the operating system that when the process is executed it should have the <strong>effective user ID</strong> of the <strong>owner</strong> user ID. This is privilege granted also applies to child processes of this program.
+</div>
 
 
 
@@ -270,10 +282,13 @@
 
 #!/bin/bash
 
+chown root $1
 chmod 4755 $1
-chown root:root $1
+
 </code></pre></div>
 </div>
+
+
 
 
 
@@ -281,9 +296,11 @@ chown root:root $1
 <div class="gist-usage gist-code">
     <span style="font-size: 1.25rem;">Usage</span>
     <div class="highlight">
-        <pre class="chroma language-bash" role="region" aria-label="code sample">
-            <code class="language-">
+        <pre class="command-line language-bash chroma" data-user="joshua" data-host="localhost" data-output="2-9999" tabindex="0" role="region" aria-label="code sample">
+            <code class="language-bash">
                 ./set-uid.sh myzsh
+                
+ 
             </code>
         </pre>
     </div>
