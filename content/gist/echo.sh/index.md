@@ -8,7 +8,7 @@ Hello, World!
 "
 date: 2021-03-05T16:13:55-06:00
 tags: [bash]
-draft: true
+draft: false
 ---
 
 ```bash
