@@ -46,24 +46,27 @@ and perseverence that energizes and drives building the future.
 {
   "Accomplishments": [
     "👩‍❤️‍👨 Married my best friend",
+    "👶 Fatherhood",
     "🏡 Built a house"
   ],
-  "Currently Exploring": [
-    "🧑‍💻 M.S. in Cybersecurity",
+  "Working On": [
+    "🎓 M.S. in Cybersecurity",
+    "👨‍💻 Cybersecurity Certifications",
     "📊 Data Science Certifications",
     "🚀 Entrepreneurship"
   ],
   "Hobbies": [
-    "🧑‍💻 Malware Analysis",
+    "️💣 Malware Analysis",
+    "️🛡️ Cyber Range",
     "🎮 Stadia",
-    "🎸, 🎺, & 🎹",
+    "🎸, 🎺, & 🎹 Jamming",
     "📸 35mm"
   ],
   "Social Media": {
     "LinkedIn": "https://linkedin.com/in/jbwolfe",
     "Twitter": "https://twitter.com/theastrowolfe",
     "Instagram": "https://instagram.com/theastrowolfe/",
-    "Facebook": "https://facebook.com/theastrowolfe",
+    "Facebook": "https://facebook.com/theastrowolfe"
   }
 }
 ```

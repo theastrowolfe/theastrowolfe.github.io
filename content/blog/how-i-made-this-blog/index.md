@@ -3,6 +3,7 @@ Title: "How I Made This Blog"
 Date: "2019-08-28"
 Tags: [web]
 draft: false
+bluf: "And how you can too!"
 ---
 
 {{< warning >}}
