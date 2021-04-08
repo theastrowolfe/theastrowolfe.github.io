@@ -16,5 +16,14 @@
       <description>#!/bin/bash chown root $1 chmod 4755 $1 </description>
     </item>
     
+    <item>
+      <title>echo.sh</title>
+      <link>https://theastrowolfe.com/gist/echo.sh/</link>
+      <pubDate>Fri, 05 Mar 2021 16:13:55 -0600</pubDate>
+      
+      <guid>https://theastrowolfe.com/gist/echo.sh/</guid>
+      <description>#!/bin/bash echo &amp;#34;Hello, $1!&amp;#34; </description>
+    </item>
+    
   </channel>
 </rss>
