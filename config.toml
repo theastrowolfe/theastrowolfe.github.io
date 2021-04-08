@@ -36,7 +36,7 @@ pygmentsCodefences = true
     weight = 1
   [[menu.nav]]
     name = "Resume"
-    url = "https://drive.google.com/open?id=1UddiEeuo3D93e3IekUGNwqcJFRIQd7Di"
+    url = "https://drive.google.com/file/d/1ESoBZ3LW7FPQRcANA0Tdllkx-f6FLaQU/view"
     weight = 2
   [[menu.nav]]
     name = "Blog"
