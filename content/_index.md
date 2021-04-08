@@ -37,7 +37,7 @@ right thing and helping others.
 
 {{< expandable label="Do The Hard Things" level="1" >}}
 Solving real-world problems doesn't come with included instructions. It's grit
-and perseverence that energizes and drives building the future.
+and perseverance that energizes and drives building the future.
 {{< /expandable >}}
 
 ## About Me
