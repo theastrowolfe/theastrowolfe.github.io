@@ -25,10 +25,6 @@ body, h1, h2, h3, h4 {
   font-family: 'Fira Code', Monaco, Consolas, monospace;
 }
 
-header {
-  overflow: scroll;
-}
-
 nav {
   overflow: visible !important;
 }
@@ -39,6 +35,10 @@ nav {
 
 .library-desc {
   text-align: center;
+}
+
+.intro-and-nav {
+  font-size: 1em;
 }
 
 .main-and-footer > div {
@@ -53,8 +53,8 @@ nav {
   min-height: auto;
 }
 
-.intro-and-nav {
-  font-size: 1em;
+[role="contentinfo"] {
+  margin-top: 2em;
 }
 
 .bluf {
