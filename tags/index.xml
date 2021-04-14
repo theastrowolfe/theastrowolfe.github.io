@@ -6,7 +6,16 @@
     <description>Recent content in Tags on The Astro Wolfe</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Mar 2021 01:19:23 -0600</lastBuildDate><atom:link href="https://theastrowolfe.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Apr 2021 22:50:46 -0500</lastBuildDate><atom:link href="https://theastrowolfe.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>web</title>
+      <link>https://theastrowolfe.com/tags/web/</link>
+      <pubDate>Wed, 07 Apr 2021 22:50:46 -0500</pubDate>
+      
+      <guid>https://theastrowolfe.com/tags/web/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>bash</title>
       <link>https://theastrowolfe.com/tags/bash/</link>
@@ -31,15 +40,6 @@
       <pubDate>Tue, 09 Mar 2021 01:19:23 -0600</pubDate>
       
       <guid>https://theastrowolfe.com/tags/unix/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>web</title>
-      <link>https://theastrowolfe.com/tags/web/</link>
-      <pubDate>Wed, 28 Aug 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://theastrowolfe.com/tags/web/</guid>
       <description></description>
     </item>
     

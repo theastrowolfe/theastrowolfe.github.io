@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://theastrowolfe.com/blog/</loc>
+    <lastmod>2021-04-07T22:50:46-05:00</lastmod>
+  </url><url>
+    <loc>https://theastrowolfe.com/blog/domain-buying-spree/</loc>
+    <lastmod>2021-04-07T22:50:46-05:00</lastmod>
+  </url><url>
+    <loc>https://theastrowolfe.com/</loc>
+    <lastmod>2021-04-07T22:50:46-05:00</lastmod>
+  </url><url>
+    <loc>https://theastrowolfe.com/tags/</loc>
+    <lastmod>2021-04-07T22:50:46-05:00</lastmod>
+  </url><url>
+    <loc>https://theastrowolfe.com/tags/web/</loc>
+    <lastmod>2021-04-07T22:50:46-05:00</lastmod>
+  </url><url>
     <loc>https://theastrowolfe.com/tags/bash/</loc>
     <lastmod>2021-03-09T01:19:23-06:00</lastmod>
   </url><url>
@@ -11,13 +26,7 @@
     <loc>https://theastrowolfe.com/gist/</loc>
     <lastmod>2021-03-09T01:19:23-06:00</lastmod>
   </url><url>
-    <loc>https://theastrowolfe.com/</loc>
-    <lastmod>2021-03-09T01:19:23-06:00</lastmod>
-  </url><url>
     <loc>https://theastrowolfe.com/gist/set-uid.sh/</loc>
-    <lastmod>2021-03-09T01:19:23-06:00</lastmod>
-  </url><url>
-    <loc>https://theastrowolfe.com/tags/</loc>
     <lastmod>2021-03-09T01:19:23-06:00</lastmod>
   </url><url>
     <loc>https://theastrowolfe.com/tags/unix/</loc>
@@ -26,13 +35,7 @@
     <loc>https://theastrowolfe.com/gist/echo.sh/</loc>
     <lastmod>2021-03-05T16:13:55-06:00</lastmod>
   </url><url>
-    <loc>https://theastrowolfe.com/blog/</loc>
-    <lastmod>2019-08-28T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://theastrowolfe.com/blog/how-i-made-this-blog/</loc>
-    <lastmod>2019-08-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://theastrowolfe.com/tags/web/</loc>
     <lastmod>2019-08-28T00:00:00+00:00</lastmod>
   </url>
 </urlset>
