@@ -1,6 +1,6 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-subtitle: ""
+bluf: ""
 date: {{ .Date }}
 lastmod: {{ .Date }}
 tags: []
