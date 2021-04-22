@@ -6,4 +6,4 @@ if [ "$#" -ne 2 ]; then
     exit 1
 fi
 
-hugo new $1/${2// /-}/index.md
+hugo new $(echo "$1/$2" | tr ' ' '-' | tr '[:upper:]' '[:lower:]')/index.md
