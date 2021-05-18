@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # Usage: hugo new blog hacking-the-universe
 # Usage: hugo new gist shred.py
 if [ "$#" -ne 2 ]; then
@@ -7,3 +8,4 @@ if [ "$#" -ne 2 ]; then
 fi
 
 hugo new $(echo "$1/$2" | tr ' ' '-' | tr '[:upper:]' '[:lower:]')/index.md
+

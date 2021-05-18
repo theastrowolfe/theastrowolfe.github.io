@@ -26,3 +26,4 @@ git commit -m "$msg"
 git push origin master
 # Return to working branch
 git checkout dev
+
