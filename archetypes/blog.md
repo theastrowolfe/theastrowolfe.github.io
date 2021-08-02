@@ -9,10 +9,10 @@ toc: true
 ---
 
 {{< figure
-img="HERO.jpg"
-caption="Caption of photo. [Credits]("http://gohugo.io.")"
+img="heroImage.jpg"
+caption="Caption of photo. [Credits](https://gohugo.io)"
 command="Resize"
-options=800x"
+options="800x"
 >}}
 
 This is a paragraph. "This is a quote!"[^1]
