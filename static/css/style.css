@@ -25,6 +25,10 @@ body, h1, h2, h3, h4 {
   font-family: 'Fira Code', Monaco, Consolas, monospace;
 }
 
+ol, ul {
+  margin-top: 1em;
+}
+
 nav {
   overflow: visible !important;
 }
