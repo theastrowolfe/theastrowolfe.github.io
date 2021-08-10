@@ -9,7 +9,7 @@ hugo
 # Checkout public branch
 git checkout master
 # Remove old directories
-find ./public -type d -mindepth 1 -maxdepth 1 -exec basename {} + | while read line; do rm -rf $line; done
+find ./public -mindepth 1 -maxdepth 1 -type d -exec basename {} + | while read line; do rm -rf $line; done
 # Move new files to public branch
 mv ./public/* .
 # Clean up
