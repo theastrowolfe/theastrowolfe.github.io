@@ -101,7 +101,7 @@
     return element.parentElement === document.getElementById('main');
   }
   function restyleParagraph(element) {
-    element.style.textIndent = '3em';
+    // element.style.textIndent = '3em';
     element.style.marginTop = '0.75em';
   }
 
