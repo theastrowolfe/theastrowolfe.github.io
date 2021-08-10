@@ -1,11 +1,11 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-bluf: ""
-date: {{ .Date }}
+bluf:  ""
+date:    {{ .Date }}
 lastmod: {{ .Date }}
 tags: []
 draft: true
-toc: true
+toc: false
 ---
 
 {{< figure
