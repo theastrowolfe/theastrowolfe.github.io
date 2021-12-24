@@ -46,14 +46,13 @@ and perseverance that energizes and drives building the future.
 {
   "Accomplishments": [
     "👩‍❤️‍👨 Married my best friend",
-    "👶 Baby on the way",
-    "🏡 Built a house"
+    "👶 Blessed with my first kid",
+    "🏡 Built our forever home"
   ],
   "Working On": [
     "🎓 M.S. in Cybersecurity",
     "👨‍💻 Cybersecurity Certifications",
     "📊 Data Science Certifications",
-    "🚀 Entrepreneurship"
   ],
   "Hobbies": [
     "️💣 Malware Analysis",
