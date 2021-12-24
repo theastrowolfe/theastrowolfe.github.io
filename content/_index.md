@@ -46,7 +46,7 @@ and perseverance that energizes and drives building the future.
 {
   "Accomplishments": [
     "👩‍❤️‍👨 Married my best friend",
-    "👶 Blessed with my first kid",
+    "👶 Had our first kid",
     "🏡 Built our forever home"
   ],
   "Working On": [
