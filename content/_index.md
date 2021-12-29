@@ -63,6 +63,7 @@ and perseverance that energizes and drives building the future.
   ],
   "Social Media": {
     "GitHub": "https://github.com/theastrowolfe",
+    "TryHackMe": "https://tryhackme.com/p/theastrowolfe",
     "LinkedIn": "https://linkedin.com/in/jbwolfe",
     "Twitter": "https://twitter.com/theastrowolfe",
     "Instagram": "https://instagram.com/theastrowolfe/",
