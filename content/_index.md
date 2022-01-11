@@ -5,8 +5,7 @@ title: "Hello, World! 👋"
 I'm Joshua, a software engineer by day and a scientist by night. I'm constantly
 pursuing various ways to leave a [positive impact][goals] on the world.
 
-Feel free to drop me a line at [developer.wolfe@gmail.com][email] or ping me
-on twitter at [@theastrowolfe][twitter]!
+Feel free to drop me a line anytime at [developer.wolfe@gmail.com][email]!
 
 ## My Values
 
@@ -64,14 +63,11 @@ and perseverance that energizes and drives building the future.
   "Social Media": {
     "GitHub": "https://github.com/theastrowolfe",
     "TryHackMe": "https://tryhackme.com/p/theastrowolfe",
+    "HackTheBox": "https://www.hackthebox.com/profile/281219",
     "LinkedIn": "https://linkedin.com/in/jbwolfe",
-    "Twitter": "https://twitter.com/theastrowolfe",
-    "Instagram": "https://instagram.com/theastrowolfe/",
-    "Facebook": "https://facebook.com/theastrowolfe"
   }
 }
 ```
 
 [email]: mailto:developer.wolfe@gmail.com
-[twitter]: https://www.twitter.com/theastrowolfe
 [goals]: https://www.globalgoals.org/
