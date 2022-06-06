@@ -150,10 +150,10 @@ function style_page() {
   let dimmer = get_dimmer();
   switch (dimmer) {
     case "sephia":
-      style_light();
+      style_sephia();
       break;
     default:
-      style_sephia();
+      style_light();
   }
 }
 style_page();
