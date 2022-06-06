@@ -118,3 +118,42 @@
     1000
   );
 }());
+
+/* Dimmer functionality */
+function style_light() {
+  document.body.style.backgroundColor = ""
+  document.body.style.color = ""
+}
+function style_sephia() {
+  document.body.style.backgroundColor = "#F4ECD8"
+  document.body.style.color = "#5B4636"
+}
+function get_dimmer() {
+  let dimmer = localStorage.getItem("dimmer");
+  if (dimmer) {
+    return dimmer.toLocaleLowerCase();
+  }
+  return null;
+}
+function toggle_dimmer() {
+  let dimmer = get_dimmer();
+  switch (dimmer) {
+    case "sephia":
+      localStorage.removeItem("dimmer");
+      break;
+    default:
+      localStorage.setItem("dimmer", "sephia");
+  }
+  style_page();
+}
+function style_page() {
+  let dimmer = get_dimmer();
+  switch (dimmer) {
+    case "sephia":
+      style_light();
+      break;
+    default:
+      style_sephia();
+  }
+}
+style_page();

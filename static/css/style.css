@@ -43,6 +43,20 @@ nav {
 
 .intro-and-nav {
   font-size: 1em;
+  overflow: scroll;
+}
+
+#dimmer {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  height: 50px;
+  width: 50px;
+  border: solid black;
+  border-radius: 50%;
+}
+#dimmer > img {
+    background: none;
 }
 
 .main-and-footer > div {
