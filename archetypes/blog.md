@@ -21,6 +21,10 @@ This is a paragraph. "This is a quote!"[^1]
 
 This is another paragraph, but with a link to [Hugo][hugo]!
 
+{{< linebreak >}}
+
+Ta ta for now! 👋
+
 [^1]: https://www.gohugo.io
 
 [hugo]: https://www.gohugo.io
