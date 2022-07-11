@@ -1,8 +1,8 @@
 ---
 title: "Certifications"
 bluf:  "Get ahead in the field of IT"
-date:    2021-08-09T17:17:27-05:00
-lastmod: 2021-08-09T17:17:27-05:00
+date:    2022-07-10T12:00:00-05:00
+lastmod: 2022-07-10T12:00:00-05:00
 tags: ["IT", "certs"]
 draft: false
 toc: true
@@ -14,24 +14,23 @@ caption="Conquering the exam. [Credits](https://unsplash.com/photos/qDgTQOYk6B8)
 command="Original"
 >}}
 
-The IT industry has numerous ways to break into it and get ahead in your career.
-One of the quickest is through IT certifications. Whether you're starting your
-career, expand your expertise to get promoted, or need to be compliant per a
-policy or mandate - certifications are the way to go! There are tons of vendors
-issuing certs, but I highly recommend [CompTIA][comptia] due to being widely
-recognized and accepted. There are also tons of study material and large
-communities committed to helping you pass the exams.
+The IT industry has numerous ways to break into it and get ahead in your
+career. One of the quickest is through IT certifications. Whether you’re
+starting your career, expanding your expertise, or needing to comply with
+policies or mandates - certifications are the way to go! Many vendors offer
+certification, of which I highly recommend [CompTIA][comptia] due to being 
+widely recognized and accepted.
 
 {{< linebreak >}}
 
 Over the coming months, I'll be diving into [CompTIA certificates][certs] to
-renew expired certs and pick up some new ones along the way! You don't have to
-follow the same path I'm going to take. CompTIA has a
-[recommended order][cert-paths] to get certificates depending on your goal.
+renew expired certs and pick up new ones along the way! You don't have to
+follow the same path as me. CompTIA has a [recommended order][cert-paths] to
+earn certificates depending on your goal.
 
 {{< linebreak >}}
 
-Personally, my goal is to be a **CompTIA Security Infrastructure Expert (CSIE)**,
+Personally, my goal is the **CompTIA Security Infrastructure Expert (CSIE)**,
 one of their "[stackable certifications][stack-certs]," which follow two career
 pathways:
 
@@ -67,8 +66,12 @@ and comments as I progress through the following certs.
 
 {{< linebreak >}}
 
-I hope you join me for the ride! If you do, feel free to share your progress
-with me on Twitter [@theastrowolfe][twitter]!
+So, which certificates are you thinking of picking up? Let me know on Twitter
+[@theastrowolfe][twitter]!
+
+{{< linebreak >}}
+
+Ta ta for now! 👋
 
 [comptia]: https://www.comptia.org
 [certs]: https://www.comptia.org/certifications
