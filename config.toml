@@ -54,7 +54,3 @@ pygmentsCodefences = true
 #    name = "Tutorials"
 #    url = "/tutorials/"
 #    weight = 6
-  [[menu.nav]]
-    name = "Tags"
-    url = "/tags/"
-    weight = 7
