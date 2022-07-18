@@ -3,7 +3,7 @@ title: "File Corruptor"
 bluf:  "Fuzzing in C"
 date:    2022-07-20T12:00:00-05:00
 lastmod: 2022-07-20T12:00:00-05:00
-tags: ["C"]
+tags: [C]
 draft: true
 ---
 
