@@ -3,7 +3,7 @@ title: "Certifications"
 bluf:  "Get ahead in the field of IT"
 date:    2022-07-10T12:00:00-05:00
 lastmod: 2022-07-10T12:00:00-05:00
-tags: ["IT", "certs"]
+tags: ["IT"]
 draft: false
 toc: true
 ---

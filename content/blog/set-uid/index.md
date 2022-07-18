@@ -1,7 +1,7 @@
 ---
 title: "Set-UID"
 date: "2019-08-28"
-tags: [cybersecurity, unix]
+tags: [cyber, unix]
 draft: true
 bluf: "Early Unix vulnerability"
 ---
