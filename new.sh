@@ -9,3 +9,5 @@ fi
 
 hugo new $(echo "$1/$2" | tr ' ' '-' | tr '[:upper:]' '[:lower:]')/index.md
 
+git checkout -b $(echo "$1-$2" | tr ' ' '-' | tr '[:upper:]' '[:lower:]')
+
