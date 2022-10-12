@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on The Astro Wolfe</title>
+    <title>Blogs on The Astro Wolfe</title>
     <link>https://theastrowolfe.com/blog/</link>
-    <description>Recent content in Blog on The Astro Wolfe</description>
+    <description>Recent content in Blogs on The Astro Wolfe</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 10 Jul 2022 12:00:00 -0500</lastBuildDate><atom:link href="https://theastrowolfe.com/blog/index.xml" rel="self" type="application/rss+xml" />
