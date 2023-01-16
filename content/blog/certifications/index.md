@@ -1,8 +1,8 @@
 ---
 title: "Certifications"
 bluf:  "Get ahead in the field of IT"
-date:    2022-07-10T12:00:00-05:00
-lastmod: 2022-07-10T12:00:00-05:00
+date:    2023-01-16T00:00:00-06:00
+lastmod: 2023-01-16T00:00:00-06:00
 tags: [IT]
 draft: false
 toc: true
