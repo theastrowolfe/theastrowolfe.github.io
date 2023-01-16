@@ -14,7 +14,7 @@ usage: "./set-uid.sh myzsh"
 output: "\n
 "
 date: 2021-03-09T01:19:23-06:00
-tags: [bash, cyber, unix]
+tags: [linux]
 draft: false
 ---
 
