@@ -56,7 +56,7 @@ and perseverance that energizes and drives building the future.
   "Hobbies": [
     "️💣 Malware Analysis",
     "️🛡️ Cyber Range",
-    "🎮 Stadia",
+    "🧰 Hardware Hacking",
     "🎸, 🎺, & 🎹 Jamming",
     "📸 35mm"
   ],
