@@ -2,20 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://theastrowolfe.com/talks/dont-get-off-my-lawn/</loc>
+    <lastmod>2023-02-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://theastrowolfe.com/</loc>
+    <lastmod>2023-02-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://theastrowolfe.com/tags/personal/</loc>
+    <lastmod>2023-02-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://theastrowolfe.com/tags/</loc>
+    <lastmod>2023-02-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://theastrowolfe.com/talks/</loc>
+    <lastmod>2023-02-13T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://theastrowolfe.com/blog/</loc>
     <lastmod>2023-01-16T00:00:00-06:00</lastmod>
   </url><url>
     <loc>https://theastrowolfe.com/blog/certifications/</loc>
     <lastmod>2023-01-16T00:00:00-06:00</lastmod>
   </url><url>
-    <loc>https://theastrowolfe.com/</loc>
-    <lastmod>2023-01-16T00:00:00-06:00</lastmod>
-  </url><url>
     <loc>https://theastrowolfe.com/tags/it/</loc>
     <lastmod>2023-01-16T00:00:00-06:00</lastmod>
   </url><url>
-    <loc>https://theastrowolfe.com/tags/</loc>
-    <lastmod>2023-01-16T00:00:00-06:00</lastmod>
+    <loc>https://theastrowolfe.com/tags/gamedev/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://theastrowolfe.com/talks/games-why-not-build-them/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://theastrowolfe.com/blog/domain-buying-spree/</loc>
     <lastmod>2021-04-07T22:50:46-05:00</lastmod>
