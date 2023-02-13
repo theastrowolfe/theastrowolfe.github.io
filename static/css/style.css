@@ -140,3 +140,12 @@ pre[class*="language-"] {
   pointer-events: none;
   user-select: none;
 }
+
+.sources {
+    margin-top: 0;
+    font-size: 0.85rem;
+}
+.sources * {
+    display: inline;
+    margin: 0;
+}
