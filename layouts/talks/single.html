@@ -1,0 +1,37 @@
+{{ define "main" }}
+<h1 class="filename">
+    {{ .Title }}
+</h1>
+<div class="date">
+    {{ $dateFormat := $.Site.Params.lastMod | default "Jan 2, 2006" }}
+    {{ $publishDate := .PublishDate }}
+    <strong aria-hidden="true">Last Modified: </strong>{{ $publishDate.Format $dateFormat }}
+</div>
+
+{{ with .Params.tags }}
+<div class="tags">
+<strong aria-hidden="true">Tags: </strong>
+<ul aria-label="tags">
+    {{ range . }}
+    <li>
+        {{ $href := print ("tags/" | absLangURL) (. | urlize) "/" }}
+        <a href="{{ $href }}">{{ . }}</a>
+    </li>
+    {{ end }}
+</ul>
+</div>
+{{ end }}
+
+{{ .Content }}
+
+<div class="sources">
+    {{ with .Params.slides}}
+        <a href="{{ . }}">Slides</a>
+    {{ end }}
+    {{ with .Params.pdf}}
+        <a href="{{ . }}">PDF</a>
+    {{ end }}
+</div>
+
+
+{{ end }}
