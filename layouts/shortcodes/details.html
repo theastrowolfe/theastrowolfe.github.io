@@ -1,4 +1,5 @@
+{{ $label := (.Get 0) | markdownify }}
 <details>
-    <summary>{{ .Get "label" }}</summary>
-    <p>{{ .Inner }}</p>
+<summary>{{ $label }}</summary>
+{{ .Inner | markdownify }}
 </details>

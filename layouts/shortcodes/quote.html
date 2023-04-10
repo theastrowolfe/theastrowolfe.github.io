@@ -1,9 +1,7 @@
-<blockquote class="blockquote">
-  <p>
-    {{ .Inner | markdownify }}
-    {{ with (.Get "author") }}
-      <br>
-      <span class="author">&mdash; {{ . }}</span>
-    {{ end }}
-  </p>
+<span>&mdash; {{ if .IsNamedParams }}{{ .Get "author" | markdownify }}{{ else }}{{ .Get 0 | markdownify }}{{ end }}</span>
+<blockquote>
+{{ .Inner | markdownify }}
+<br>
+<span></span>
+<span>&mdash; {{ if .IsNamedParams }}{{ .Get "author" | markdownify }}{{ else }}{{ .Get 0 | markdownify }}{{ end }}</span>
 </blockquote>

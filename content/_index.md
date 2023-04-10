@@ -7,41 +7,41 @@ pursuing various ways to leave a [positive impact][goals] on the world.
 
 Feel free to drop me a line anytime at [developer.wolfe@gmail.com][email]!
 
-{{< section title="My Values" >}}
+{{< section "My Values" >}}
 
-{{< details label="Embrace The Weird" level="1" >}}
+{{< details "Embrace The Weird" >}}
 Doing non-traditional, "radical" things tends to yield "radical" results.
 {{< /details >}}
 
-{{< details label="Feed My Curiosity" level="1" >}}
+{{< details "Feed My Curiosity" >}}
 It's important to explore new interest and unknown subjects without the fear
 of judgement or failure.
 
-{{< quote author="Jake the Dog" >}}
+{{< quote "Jake the Dog" >}}
 Dude, suckin' at something is the first step to being sorta good at something.
 {{< /quote >}}
 {{< /details >}}
 
-{{< details label="Rapid Experimentation" level="1" >}}
+{{< details "Rapid Experimentation" >}}
 Ideas alone are worthless. It's execution that matters and makes the
 difference. To solve real-world problems, build and iterate until a valid
 solution is made.
 {{< /details >}}
 
-{{< details label="Others > Myself" level="1" >}}
+{{< details "Others > Myself" >}}
 I feel most empowered and purpose driven when I'm serving others or
 volunteering. I believe making the world a better place starts with doing the
 right thing and helping others.
 {{< /details >}}
 
-{{< details label="Do The Hard Things" level="1" >}}
+{{< details "Do The Hard Things" >}}
 Solving real-world problems doesn't come with included instructions. It's grit
 and perseverance that energizes and drives building the future.
 {{< /details >}}
 
 {{< /section >}}
 
-{{< section title="About Me" >}}
+{{< section "About Me" >}}
 
 ```json
 {
