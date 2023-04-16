@@ -1,20 +1,20 @@
 @font-face {
-    font-family: 'Fira Code';
+    font-family: 'Ubuntu Mono';
     font-style:  normal;
     font-weight: 400;
-    src: url("fonts/FiraCode-Regular.ttf") format("truetype");
+    src: url("fonts/UbuntuMono-Regular.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'Fira Code';
+    font-family: 'Ubuntu Mono';
     font-style:  normal;
-    font-weight: 800;
-    src: url("fonts/FiraCode-Bold.ttf") format("truetype");
+    font-weight: 700;
+    src: url("fonts/UbuntuMono-Bold.ttf") format("truetype");
 }
 
 html {
-    font-size: 1.5em;
-    font-family: 'Fira Code', Monaco, Consolas, monospace;
+    font-size: 1.75em;
+    font-family: 'Ubuntu Mono', Monaco, Consolas, monospace;
     letter-spacing: 0px;
 }
 
