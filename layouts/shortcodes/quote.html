@@ -1,7 +1,6 @@
-<span>&mdash; {{ if .IsNamedParams }}{{ .Get "author" | markdownify }}{{ else }}{{ .Get 0 | markdownify }}{{ end }}</span>
+{{ $author := (.Get 0) | markdownify }}
 <blockquote>
 {{ .Inner | markdownify }}
 <br>
-<span></span>
-<span>&mdash; {{ if .IsNamedParams }}{{ .Get "author" | markdownify }}{{ else }}{{ .Get 0 | markdownify }}{{ end }}</span>
+<span>&mdash; {{ $author }}</span>
 </blockquote>

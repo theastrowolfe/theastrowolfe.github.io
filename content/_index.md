@@ -16,7 +16,6 @@ Doing non-traditional, "radical" things tends to yield "radical" results.
 {{< details "Feed My Curiosity" >}}
 It's important to explore new interest and unknown subjects without the fear
 of judgement or failure.
-
 {{< quote "Jake the Dog" >}}
 Dude, suckin' at something is the first step to being sorta good at something.
 {{< /quote >}}
