@@ -79,6 +79,10 @@ main > article > figure > img {
     width: 50%;
 }
 
+main > article > figure > iframe {
+    width: 100%;
+}
+
 main > article > figure > figcaption {
     color: gray;
     font-size: 0.75em;

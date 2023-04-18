@@ -46,11 +46,11 @@ pygmentsCodefences = true
     name = "Gist"
     url = "/gist/"
     weight = 4
-#  [[menu.nav]]
-#    name = "Projects"
-#    url = "/projects/"
-#    weight = 5
-#  [[menu.nav]]
-#    name = "Tutorials"
-#    url = "/tutorials/"
-#    weight = 6
+  [[menu.nav]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 5
+  [[menu.nav]]
+    name = "Talks"
+    url = "/talks/"
+    weight = 6
