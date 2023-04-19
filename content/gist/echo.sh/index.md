@@ -1,6 +1,5 @@
 ---
 title: "echo.sh"
-bluf: "Hello World in bash"
 description: "Simple \"Hello, World!\" bash script."
 usage: "./echo.sh World"
 output: "Hello, World!"
@@ -9,7 +8,3 @@ lastmod: 2023-01-16T00:00:00-06:00
 tags: [linux]
 draft: false
 ---
-
-```bash
-{{< readFile file="echo.sh" >}}
-```

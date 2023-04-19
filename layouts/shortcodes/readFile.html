@@ -1,5 +1,8 @@
 {{/*
-{{ $file := .Get "file" }}
-{{ $path := printf "%s" $file | printf "%s%s" .Page.Dir | printf }}
+{{ $file := (.Get 0) }}
+{{ $path := replace .Page.Path "index.md" (.Page.Title | lower) }}
+<p>{{ $file }}</p>
+<a href="{{ replace .Page.Path "index.md" (.Page.Title | lower) }}">Test</a>
 {{ readFile $path }}
+{{ $path := printf "%s" $file | printf "%s%s" .Page.Dir | printf }}
 */}}

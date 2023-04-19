@@ -1,24 +1,11 @@
 {{ define "main" }}
+{{ $path := replace .Page.Path "index.md" (.Page.Title | lower) }}
+{{ $language := (or .Params.language "") }}
 <header>
     <h1>{{ .Title }}</h1>
 </header>
 
-<div class="date">
-    {{ $dateFormat := $.Site.Params.lastMod | default "Jan 2, 2006" }}
-    {{ $publishDate := .PublishDate }}
-    <strong aria-hidden="true">Last Modified: </strong>{{ $publishDate.Format $dateFormat }}
-</div>
-
-{{ partial "gist-description" . }}
-
-<div class="gist-code line-numbers">
 {{ .Content }}
-</div>
 
-{{ partial "gist-usage" . }}
-
-{{ partial "gist-test" . }}
-
-<!-- {{ partial "gist-output" . }} -->
-
+{{ printf "```%s\n%s\n```" $language (readFile $path) | markdownify }}
 {{ end }}
