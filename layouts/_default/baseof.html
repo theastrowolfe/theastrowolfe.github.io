@@ -22,9 +22,7 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
 
-    <link rel="stylesheet" type="text/css" href="{{ "css/styles.css" | absURL }}">
-    <link rel="stylesheet" type="text/css" href="{{ "css/prism.css"  | absURL }}">
-    <link rel="stylesheet" type="text/css" href="{{ "css/style.css"  | absURL }}">
+    {{ partial "styles.html" }}
 
     {{ $title := print .Title " | " .Site.Title }}
     {{ if .IsHome }}
@@ -33,17 +31,10 @@
     <title>{{ $title }}</title>
 </head>
 <body>
-  {{ partial "svg.html" . }}
-    <div class="wrapper">
-    {{ partial "header.html" . }}
-    <div class="main-and-footer">
-    <div>
+    {{ partial "nav.html" . }}
+    <main>
     {{ block "main" . }}{{ end }}
-    {{ partial "footer.html" . }}
-    </div>
-    </div>
-    </div>
-    {{ partial "script.html" . }}
-    {{ partial "katex.html" . }}
+    </main>
+    {{ partial "script.html" }}
 </body>
 </html>

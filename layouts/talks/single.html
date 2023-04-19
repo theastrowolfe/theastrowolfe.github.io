@@ -1,40 +1,22 @@
 {{ define "main" }}
-<h1 class="filename">
-    {{ .Title }}
-</h1>
-<div class="date">
-    {{ $dateFormat := $.Site.Params.lastMod | default "Jan 2, 2006" }}
-    {{ $publishDate := .PublishDate }}
-    <strong aria-hidden="true">Last Modified: </strong>{{ $publishDate.Format $dateFormat }}
-</div>
-
-{{ with .Params.tags }}
-<div class="tags">
-<strong aria-hidden="true">Tags: </strong>
-<ul aria-label="tags">
-    {{ range . }}
-    <li>
-        <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
-        <use xlink:href="#tag"></use>
-        </svg>
-        {{ $href := print ("tags/" | absLangURL) (. | urlize) "/" }}
-        <a href="{{ $href }}">{{ . }}</a>
-    </li>
-    {{ end }}
-</ul>
-</div>
-{{ end }}
-
+<header>
+    <h1>{{.Title}}</h1>
+</header>
+<figure>
+<iframe
+    class="slides"
+    src="{{ .Params.slides }}/embed?start=false&loop=false"
+    frameborder="0"
+    width="960"
+    height="569"
+    allowfullscreen="true"
+    mozallowfullscreen="true"
+    webkitallowfullscreen="true"
+></iframe>
+<figcaption>
+<a href="{{ .Params.slides }}/pub">Slides</a>
+{{ with .Params.pdf }}<a href="{{ . }}">PDF</a>{{ end }}
+<figcaption>
+</figure>
 {{ .Content }}
-
-<div class="sources">
-    {{ with .Params.slides}}
-        <a href="{{ . }}">Slides</a>
-    {{ end }}
-    {{ with .Params.pdf}}
-        <a href="{{ . }}">PDF</a>
-    {{ end }}
-</div>
-
-
 {{ end }}

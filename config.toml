@@ -51,6 +51,6 @@ pygmentsCodefences = true
 #    url = "/projects/"
 #    weight = 5
 #  [[menu.nav]]
-#    name = "Tutorials"
-#    url = "/tutorials/"
+#    name = "Talks"
+#    url = "/talks/"
 #    weight = 6

@@ -1,0 +1,5 @@
+{{ $title := (.Get 0) | markdownify }}
+<section>
+<h2 id="{{ $title | lower | replaceRE " " "-" }}">{{ $title }}</h2>
+{{ .Inner | markdownify }}
+</section>

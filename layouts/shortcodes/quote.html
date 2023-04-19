@@ -1,0 +1,6 @@
+{{ $author := (.Get 0) | markdownify }}
+<blockquote>
+{{ .Inner | markdownify }}
+<br>
+<span>&mdash; {{ $author }}</span>
+</blockquote>

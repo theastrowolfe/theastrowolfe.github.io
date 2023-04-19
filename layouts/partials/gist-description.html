@@ -1,8 +1,0 @@
-{{ if .Page.Description }}
-{{ $description := replaceRE "^\\s*" "$1" .Page.Description }}
-{{ if ge (len $description) 1 }}
-<div class="gist-description">
-{{ $description | replaceRE "\n" "<br><br>" | markdownify }}
-</div>
-{{ end }}
-{{ end }}

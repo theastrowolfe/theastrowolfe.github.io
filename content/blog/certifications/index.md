@@ -1,11 +1,10 @@
 ---
-title: "Certifications"
-bluf:  "Get ahead in the field of IT"
+title: "IT Certifications"
+bluf: "Do they *really* matter?"
 date:    2023-01-16T00:00:00-06:00
 lastmod: 2023-01-16T00:00:00-06:00
 tags: [IT]
 draft: false
-toc: true
 ---
 
 {{< figure
@@ -14,30 +13,24 @@ caption="Conquering the exam. [Credits](https://unsplash.com/photos/qDgTQOYk6B8)
 command="Original"
 >}}
 
-The IT industry has numerous ways to break into it and get ahead in your
-career. One of the quickest is through IT certifications. Whether you’re
+The IT industry has numerous ways to break into it and quickly progress in the
+field! A tried and true method is through IT certifications. Whether you’re
 starting your career, expanding your expertise, or needing to comply with
-policies or mandates - certifications are the way to go! Many vendors offer
-certification, of which I highly recommend [CompTIA][comptia] due to being 
-widely recognized and accepted.
+policies and mandates - certifications are a proven option! Many vendors offer
+certifications, of which I highly recommend [CompTIA][comptia] because their
+certifications are widely recognized and accepted by industry.
 
-{{< linebreak >}}
+Over the coming months, I'll dive into [CompTIA certificates][certs] to
+renew an expired cert and pick up a few new ones along the way! You don't have
+to follow the same path as me. CompTIA has a [recommended order][cert-paths] to
+earn certificates depending on your goal and where you are in your career.
 
-Over the coming months, I'll be diving into [CompTIA certificates][certs] to
-renew expired certs and pick up new ones along the way! You don't have to
-follow the same path as me. CompTIA has a [recommended order][cert-paths] to
-earn certificates depending on your goal.
-
-{{< linebreak >}}
-
-Personally, my goal is the **CompTIA Security Infrastructure Expert (CSIE)**,
-one of their "[stackable certifications][stack-certs]," which follow two career
-pathways:
+For me, my goal is the **CompTIA Security Infrastructure Expert (CSIE)**,
+which is one of their "[stackable certifications][stack-certs]." Stackable
+certifications follow two career pathways:
 
 * [CompTIA Infrastructure Career Pathway][infra-path]
 * [CompTIA Cybersecurity Career Pathway][cyber-path]
-
-{{< linebreak >}}
 
 Each pathway has stackable certifications organized by experience level:
 
@@ -45,31 +38,28 @@ Each pathway has stackable certifications organized by experience level:
 * **Professional**: Mid-level IT professional with 2-5 years of experience
 * **Expert**: Established IT professional with 5+ years of experience
 
-> **Note:** Only the *CompTIA Cybersecurity Career Pathway* has Expert level
-stackable certifications.
+> **Note:** At the time of writing, only the *CompTIA Cybersecurity Career
+Pathway* has Expert level stackable certifications.
 
-{{< linebreak >}}
-
-So, to get the CSIE, I'll be pursuing the following certifications:
+To get the CSIE, I'll be going after the following certifications:
 
 1. CompTIA Security+
 2. CompTIA PenTest+
 3. CompTIA Cybersecurity Analyst (CySA+)
 4. CompTIA Advanced Security Practitioner (CASP+)
 
-{{< linebreak >}}
+The Security+ is a core certification that I highly recommend for beginners!
+I've earned the certificate once before but inadvertently let it expire. From my
+experience, the exam isn’t challenging, and TONS of resources are available. The
+PenTest+ is a more difficult exam that is the most comprehensive exam covering
+all pentesting stages, including all aspects of vulnerability management. The
+CySA+ is more or less just incident detection, prevention, and response. The 
+CASP+ is an advanced-level certification that is very hands-on.
 
-The Security+ is a core certification that I highly recommend for beginners! The
-exam isn’t challenging, and there are TONS of resources for it, both paid and
-free. I can’t speak from experience past Security+ but will share my thoughts
-and comments as I progress through the following certs.
-
-{{< linebreak >}}
-
-So, which certificates are you thinking of picking up? Let me know on Twitter
-[@theastrowolfe][twitter]!
-
-{{< linebreak >}}
+In short, IT certifications are worth it to get your foot in the door or show
+competency in a given field! From foundation knowledge to  advanced, hands-on
+skills, certifications are a quick way to prove someone has the minimum
+required skills to perform a specific job.
 
 Ta ta for now! 👋
 
