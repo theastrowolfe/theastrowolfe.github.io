@@ -36,8 +36,7 @@ fun domains that redirect back to my website:
 * [joshuawolfe.me](http://joshuawolfe.me)
 * [joshwolfe.me](http://joshwolfe.me)
 
-The whole point is that it's not a bad thing. Feel free to share some of your
-own creative domains by tweeting at me!
+The whole point is that it's not a bad thing. It's just virtual real estate!
 
 [hn_article]: https://news.ycombinator.com/item?id=26421454
 [wiki_domain_parking]: https://en.wikipedia.org/wiki/Domain_parking
