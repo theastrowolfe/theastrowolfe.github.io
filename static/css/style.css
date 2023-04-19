@@ -3,6 +3,7 @@
     font-style:  normal;
     font-weight: 400;
     src: url("fonts/UbuntuMono-Regular.ttf") format("truetype");
+    font-display: swap;
 }
 
 @font-face {
@@ -10,6 +11,7 @@
     font-style:  normal;
     font-weight: 700;
     src: url("fonts/UbuntuMono-Bold.ttf") format("truetype");
+    font-display: swap;
 }
 
 html {
@@ -44,6 +46,11 @@ nav > figure {
     width: 80%;
     margin: 0px;
     padding-bottom: 0.5em;
+}
+
+nav > figure > a > img {
+    height: 150px;
+    width: 150px;
 }
 
 nav > div {
@@ -116,8 +123,10 @@ pre[class*="language-"] {
     font-size: 80%;
     border-radius: 6px;
     line-height: 1.2em;
+    background: #f6f8fa;
 }
-code[class*="language-"] {
+.token.string {
+    color: #3e5c00;
 }
 
 @media screen and (max-width: 750px) {
