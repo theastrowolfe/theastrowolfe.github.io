@@ -13,7 +13,7 @@
       <pubDate>Tue, 09 Mar 2021 01:19:23 -0600</pubDate>
       
       <guid>https://theastrowolfe.com/gist/set-uid.sh/</guid>
-      <description>#!/bin/bash chown root $1 chmod 4755 $1 </description>
+      <description>A Set-UID program is like any other Unix program, except that it has a special marking, which is a single bit called a Set-UID bit. This tells the operating system that when the process is executed it should have the effective user ID of the owner user ID. This is privilege granted also applies to child processes of this program.</description>
     </item>
     
     <item>
@@ -22,7 +22,7 @@
       <pubDate>Fri, 05 Mar 2021 16:13:55 -0600</pubDate>
       
       <guid>https://theastrowolfe.com/gist/echo.sh/</guid>
-      <description>#!/bin/bash echo &amp;#34;Hello, $1!&amp;#34; </description>
+      <description>Simple &amp;ldquo;Hello, World!&amp;rdquo; bash script.</description>
     </item>
     
   </channel>

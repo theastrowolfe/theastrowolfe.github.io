@@ -23,7 +23,9 @@ However, not everyone appreciates this perspective&amp;hellip; A while back, an 
       <pubDate>Wed, 28 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://theastrowolfe.com/blog/how-i-made-this-blog/</guid>
-      <description>Warning: You are about to read a blog post on how this blog was made - It&#39;s getting meta.    Hugo: The world&amp;rsquo;s fastest framework for building websites. Credits   This blog is made with Hugo. &amp;ldquo;The world’s fastest framework for building websites.&amp;quot;1 Basically, it is a static site generator built in go. This means when it is time to build a website, it&amp;rsquo;s very fast.</description>
+      <description>Hugo: The world&amp;rsquo;s fastest framework for building websites. Credits
+  This blog is made with Hugo. &amp;ldquo;The world’s fastest framework for building websites.&amp;quot;1 Basically, it is a static site generator built in go. This means when it is time to build a website, it&amp;rsquo;s very fast. However, it doesn&amp;rsquo;t make the actual building and tweaking of the site fast&amp;hellip;
+I wouldn&amp;rsquo;t agree with it&amp;rsquo;s claim that it makes building websites fun again either.</description>
     </item>
     
   </channel>

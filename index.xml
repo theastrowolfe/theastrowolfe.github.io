@@ -13,16 +13,17 @@
       <pubDate>Mon, 13 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>https://theastrowolfe.com/talks/dont-get-off-my-lawn/</guid>
-      <description>  </description>
+      <description></description>
     </item>
     
     <item>
-      <title>Certifications</title>
+      <title>IT Certifications</title>
       <link>https://theastrowolfe.com/blog/certifications/</link>
       <pubDate>Mon, 16 Jan 2023 00:00:00 -0600</pubDate>
       
       <guid>https://theastrowolfe.com/blog/certifications/</guid>
-      <description>Conquering the exam. Credits   The IT industry has numerous ways to break into it and get ahead in your career. One of the quickest is through IT certifications. Whether you’re starting your career, expanding your expertise, or needing to comply with policies or mandates - certifications are the way to go! Many vendors offer certification, of which I highly recommend CompTIA due to being widely recognized and accepted.</description>
+      <description>Conquering the exam. Credits
+  The IT industry has numerous ways to break into it and quickly progress in the field! A tried and true method is through IT certifications. Whether you’re starting your career, expanding your expertise, or needing to comply with policies and mandates - certifications are a proven option! Many vendors offer certifications, of which I highly recommend CompTIA because their certifications are widely recognized and accepted by industry.</description>
     </item>
     
     <item>
@@ -31,7 +32,7 @@
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>https://theastrowolfe.com/talks/games-why-not-build-them/</guid>
-      <description>  </description>
+      <description></description>
     </item>
     
     <item>
@@ -50,7 +51,7 @@ However, not everyone appreciates this perspective&amp;hellip; A while back, an 
       <pubDate>Tue, 09 Mar 2021 01:19:23 -0600</pubDate>
       
       <guid>https://theastrowolfe.com/gist/set-uid.sh/</guid>
-      <description>#!/bin/bash chown root $1 chmod 4755 $1 </description>
+      <description>A Set-UID program is like any other Unix program, except that it has a special marking, which is a single bit called a Set-UID bit. This tells the operating system that when the process is executed it should have the effective user ID of the owner user ID. This is privilege granted also applies to child processes of this program.</description>
     </item>
     
     <item>
@@ -59,7 +60,7 @@ However, not everyone appreciates this perspective&amp;hellip; A while back, an 
       <pubDate>Fri, 05 Mar 2021 16:13:55 -0600</pubDate>
       
       <guid>https://theastrowolfe.com/gist/echo.sh/</guid>
-      <description>#!/bin/bash echo &amp;#34;Hello, $1!&amp;#34; </description>
+      <description>Simple &amp;ldquo;Hello, World!&amp;rdquo; bash script.</description>
     </item>
     
     <item>
@@ -68,7 +69,9 @@ However, not everyone appreciates this perspective&amp;hellip; A while back, an 
       <pubDate>Wed, 28 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://theastrowolfe.com/blog/how-i-made-this-blog/</guid>
-      <description>Warning: You are about to read a blog post on how this blog was made - It&#39;s getting meta.    Hugo: The world&amp;rsquo;s fastest framework for building websites. Credits   This blog is made with Hugo. &amp;ldquo;The world’s fastest framework for building websites.&amp;quot;1 Basically, it is a static site generator built in go. This means when it is time to build a website, it&amp;rsquo;s very fast.</description>
+      <description>Hugo: The world&amp;rsquo;s fastest framework for building websites. Credits
+  This blog is made with Hugo. &amp;ldquo;The world’s fastest framework for building websites.&amp;quot;1 Basically, it is a static site generator built in go. This means when it is time to build a website, it&amp;rsquo;s very fast. However, it doesn&amp;rsquo;t make the actual building and tweaking of the site fast&amp;hellip;
+I wouldn&amp;rsquo;t agree with it&amp;rsquo;s claim that it makes building websites fun again either.</description>
     </item>
     
   </channel>
