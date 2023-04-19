@@ -1,5 +1,6 @@
 ---
 title: "set-uid.sh"
+language: "bash"
 bluf: "Set program's effective user ID to owner's ID"
 date: 2021-03-09T01:19:23-06:00
 tags: [linux]

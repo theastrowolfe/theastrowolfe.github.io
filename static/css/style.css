@@ -59,6 +59,7 @@ main {
     flex: 1;
     height: fit-content;
     height: 100%;
+    margin: 0 1em 0 0;
 }
 
 main > header > h1 {
@@ -107,6 +108,16 @@ a {
 
 a:visited {
     color: blue;
+}
+
+pre[class*="language-"] {
+    padding: 0.5em;
+    overflow: auto;
+    font-size: 80%;
+    border-radius: 6px;
+    line-height: 1.2em;
+}
+code[class*="language-"] {
 }
 
 @media screen and (max-width: 750px) {

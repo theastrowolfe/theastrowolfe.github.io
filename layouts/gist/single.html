@@ -7,5 +7,5 @@
 
 {{ .Content }}
 
-{{ printf "```%s\n%s\n```" $language (readFile $path) | markdownify }}
+{{ printf "```%s\n%s\n```" $language (trim (readFile $path) "\n") | markdownify }}
 {{ end }}
