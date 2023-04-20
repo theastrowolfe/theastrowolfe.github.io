@@ -3,6 +3,8 @@
 {{ $language := (or .Params.language "") }}
 <header>
     <h1>{{ .Title }}</h1>
+    <a href="{{ printf "https://raw.githubusercontent.com/theastrowolfe/theastrowolfe.github.io/master/%s" $path }}">Raw</a>
+    <a href="{{ .Params.Title }}">Download</a>
 </header>
 
 {{ .Content }}
