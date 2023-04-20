@@ -88,10 +88,6 @@ main > article > figure > img {
     width: 50%;
 }
 
-main > article > figure > iframe {
-    width: 100%;
-}
-
 main > article > figure > figcaption {
     color: gray;
     font-size: 0.75em;
@@ -182,6 +178,10 @@ pre[class*="language-"] {
     nav > div > a {
         flex: 1 1 100px;
     }
+}
+
+.slides {
+    width: 100%;
 }
 
 .sources {
