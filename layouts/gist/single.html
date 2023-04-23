@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ $path := replace .Page.Path "index.md" (.Page.Title | lower) }}
+{{ $path := replace .File.Path "index.md" (.Page.Title | lower) }}
 {{ $language := (or .Params.language "") }}
 <header>
     <h1>{{ .Title }}</h1>
