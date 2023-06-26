@@ -39,7 +39,6 @@ nav {
     flex-direction: column;
     align-items: center;
     flex: 1;
-    max-width: 175px;
 }
 
 nav > figure {
@@ -64,36 +63,33 @@ nav > div {
 main {
     display: flex;
     flex-direction: column;
-    flex: 1;
+    align-items: center;
     height: fit-content;
-    height: 100%;
+    width: 100%;
     margin: 0 1em 0 0;
 }
 
-main > header > h1 {
-    margin: 1em 0 0 0;
+main > .wrapper {
+    max-width: 680px;
+    width: 100%;
 }
 
-main > article {
-    padding: 0 1em 0 0;
-}
-
-main > article > figure {
+article > figure {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-main > article > figure > img {
-    width: 50%;
+article > figure > img {
+    max-width: 25em;
 }
 
-main > article > figure > figcaption {
+article > figure > figcaption {
     color: gray;
     font-size: 0.75em;
 }
 
-main > article > figure > figcaption > p {
+article > figure > figcaption > p {
     margin: 0 0 1em 0;
 }
 
@@ -147,29 +143,35 @@ pre[class*="language-"] {
 
     nav > div > a {
         margin: 0 10px;
-        flex: 1 1 25%;
+        flex: 1 1;
         display: flex;
         justify-content: center;
     }
 
     main {
+        margin: 0;
         padding: 0 0.5em;
+        width: auto;
         word-wrap: break-word;
     }
 
-    main > header > h1 {
+    main > .wrapper {
+        width: 100%;
+    }
+
+    header > h1 {
         margin: 0 0 0.25em 0;
     }
 
-    main > article {
+    article {
         padding: 0;
     }
 
-    main > article > figure {
+    article > figure {
         margin: 0;
     }
 
-    main > article > figure > img {
+    article > figure > img {
         width: 100%;
     }
 }
