@@ -39,6 +39,7 @@ nav {
     flex-direction: column;
     align-items: center;
     flex: 1;
+    max-width: 175px;
 }
 
 nav > figure {
@@ -63,33 +64,37 @@ nav > div {
 main {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    flex: 1;
     height: fit-content;
-    width: 100%;
+    height: 100%;
     margin: 0 1em 0 0;
+    max-width: 1280px;
 }
 
-main > .wrapper {
-    max-width: 680px;
-    width: 100%;
+main > header > h1 {
+    margin: 1em 0 0 0;
 }
 
-article > figure {
+main > article {
+    padding: 0 1em 0 0;
+}
+
+main > article > figure {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-article > figure > img {
-    max-width: 25em;
+main > article > figure > img {
+    max-width: 720px;
 }
 
-article > figure > figcaption {
+main > article > figure > figcaption {
     color: gray;
     font-size: 0.75em;
 }
 
-article > figure > figcaption > p {
+main > article > figure > figcaption > p {
     margin: 0 0 1em 0;
 }
 
@@ -143,35 +148,29 @@ pre[class*="language-"] {
 
     nav > div > a {
         margin: 0 10px;
-        flex: 1 1;
+        flex: 1 1 25%;
         display: flex;
         justify-content: center;
     }
 
     main {
-        margin: 0;
         padding: 0 0.5em;
-        width: auto;
         word-wrap: break-word;
     }
 
-    main > .wrapper {
-        width: 100%;
-    }
-
-    header > h1 {
+    main > header > h1 {
         margin: 0 0 0.25em 0;
     }
 
-    article {
+    main > article {
         padding: 0;
     }
 
-    article > figure {
+    main > article > figure {
         margin: 0;
     }
 
-    article > figure > img {
+    main > article > figure > img {
         width: 100%;
     }
 }
@@ -194,3 +193,10 @@ pre[class*="language-"] {
     display: inline;
     margin: 0;
 }
+
+.no-bullet-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
